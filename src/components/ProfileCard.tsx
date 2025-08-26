@@ -45,7 +45,7 @@ export default function ProfileCard({
               href="/resume"
               className="inline-block bg-sky-500 hover:bg-sky-600 text-white font-semibold py-2 px-4 rounded-full shadow transition text-sm"
             >
-              View My Résumé
+              View My Resume
             </a>
           </div>
         )}

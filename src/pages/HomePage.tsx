@@ -1,12 +1,17 @@
+import { useEffect } from "react";
 import NavCard from "../components/NavCard";
 import ProfileCard from "../components/ProfileCard";
 
 export default function HomePage() {
+  useEffect(() => {
+    document.title = "Home – rockhold.dev";
+  }, []);
+
   return (
     <>
       <div className="py-8 sm:py-12">
         <div className="space-y-8 sm:space-y-10">
-          <section className="max-w-4xl mx-auto w-full px-4">
+          <section className="max-w-4xl mx-auto w-full px-4 animate-fadeIn">
             <ProfileCard
               name="Brandon Rockhold"
               title="Engineering Leader | Manager and Mentor"
@@ -17,10 +22,10 @@ export default function HomePage() {
               showResume={true}
             />
           </section>
-          <section className="max-w-4xl mx-auto w-full px-4">
+          <section className="max-w-4xl mx-auto w-full px-4 animate-fadeIn">
             <div className="bg-gray-800 text-white p-6 rounded-xl shadow-lg">
               <h2 className="text-xl sm:text-2xl font-bold mb-2 text-center">
-                What I Bring to the Table
+                Empowering Exceptional Teams
               </h2>
               <p className="text-gray-300 text-center">
                 I’m an engineering leader with extensive experience building
@@ -32,7 +37,7 @@ export default function HomePage() {
               </p>
             </div>
           </section>
-          <section className="max-w-4xl mx-auto w-full px-4">
+          <section className="max-w-4xl mx-auto w-full px-4 animate-fadeIn">
             <div className="max-w-5xl mx-auto">
               <h2 className="text-2xl sm:text-3xl font-semibold text-center mb-10">
                 Explore the Site
@@ -44,7 +49,7 @@ export default function HomePage() {
                   description="Learn more about my values, leadership style, and what drives me."
                 />
                 <NavCard
-                  title="Résumé"
+                  title="Resume"
                   href="/resume"
                   description="Check out my experience, skills, and recent work. Includes downloadable PDF."
                 />
