@@ -76,7 +76,7 @@ export default function ProfileCard({
                   </button>
                 </div>
                 <p className="mt-2 leading-relaxed text-zinc-300">
-                  I’m looking for remote engineering leadership role where I can
+                  I’m seeking a remote engineering leadership role where I can
                   help an organization succeed and scale: operationally,
                   technically, culturally, and financially. I want to work on
                   products that matter, alongside people who care about each
@@ -88,7 +88,7 @@ export default function ProfileCard({
                 </p>
                 <p className="mt-3">
                   If you're aware of or are hiring for a role that you think I
-                  may fit well,{" "}
+                  might be a good fit for,{" "}
                   <Link to="/contact" className="text-sky-400 underline">
                     let’s connect
                   </Link>

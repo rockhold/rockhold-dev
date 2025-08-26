@@ -18,7 +18,7 @@ export default function AboutPage() {
         <p className="text-zinc-200">
           I’m a lifelong learner and empathetic engineering leader passionate
           about leveraging technology in collaboration with my team to deliver
-          software that solves problems and make an impact. I’ve spent a decade
+          software that solves problems and makes an impact. I’ve spent a decade
           in engineering management roles, building environments where engineers
           feel safe to grow, challenge themselves, and do meaningful work.
         </p>
@@ -30,7 +30,7 @@ export default function AboutPage() {
         </h2>
         <p className="text-zinc-200">
           I lead with integrity, empathy, and transparency. Whether I’m shaping
-          process, partnering with cross-functional teams, coaching engineers,
+          processes, partnering with cross-functional teams, coaching engineers,
           or contributing directly to technical conversations, I focus on
           building trust and delivering impact.
         </p>
@@ -53,11 +53,11 @@ export default function AboutPage() {
         </p>
         <p className="text-zinc-200 mt-4">
           My teams have built and shipped high-quality software products
-          leveraging technologies like Java, JavaScript, React, Ruby,
-          TypeScript, Python, GraphQL, Postgres, and AWS. Whatever the tech
-          stack, I bring an ability to learn fast, solve real problems, improve
-          engineering efficiency and effectiveness, and support engineers in
-          doing the best work of their careers.
+          leveraging technologies such as Java, JavaScript, React, Ruby,
+          TypeScript, Python, GraphQL, PostgreSQL, and AWS. Whatever the tech
+          stack, I bring the ability to learn quickly, solve real-world
+          problems, improve engineering efficiency and effectiveness, and
+          support engineers in doing their best work.
         </p>
       </section>
 
@@ -67,17 +67,18 @@ export default function AboutPage() {
         </h2>
         <p className="text-zinc-200">
           I’m approachable, calm under pressure, and passionate about making
-          work a place where people can grow and be proud of what they build. I
-          encourage healthy debate, value psychological safety, and default to
+          work a place where people can grow and take pride in what they build.
+          I encourage healthy debate, value psychological safety, and default to
           kindness.
         </p>
         <p className="text-zinc-200 mt-4">
           My management philosophy is best described as "trust, but verify". By
           default, I trust my team to show up, do their best work, and
-          communicate proactively and transparently about the issues in their
-          way. As a leader with accountability for my teams' deliverables, I'll
-          also perform my due diligence in ensuring we're on track to meet our
-          goals, but do so WITHOUT getting in the way or micromanaging tasks.
+          communicate proactively and transparently about any issues that may
+          arise. As a leader with accountability for my teams' deliverables,
+          I'll also perform my due diligence in ensuring we're on track to meet
+          our goals, but do so WITHOUT getting in the way or micromanaging
+          tasks.
         </p>
         <p className="text-zinc-200 mt-4">
           I collaborate respectfully and successfully with Product, Design,
@@ -93,7 +94,7 @@ export default function AboutPage() {
           My Next Chapter
         </h2>
         <p className="text-zinc-200">
-          I’m looking for remote engineering leadership role where I can help an
+          I’m seeking a remote engineering leadership role where I can help an
           organization succeed and scale: operationally, technically,
           culturally, and financially. I want to work on products that matter,
           alongside people who care about each other and the work they do.
@@ -103,8 +104,8 @@ export default function AboutPage() {
           Engineering Manager, and Engineering Director.
         </p>
         <p className="text-zinc-200 mt-4">
-          If you're aware of or are hiring for a role that you think I may fit
-          well,{" "}
+          If you're aware of or are hiring for a role that you think I might be
+          a good fit for,{" "}
           <Link to="/contact" className="text-sky-400 underline">
             let’s connect
           </Link>
