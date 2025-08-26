@@ -30,7 +30,7 @@ export default function HomePage() {
               <p className="text-gray-300 text-center">
                 I’m an engineering leader with extensive experience building
                 high-performing teams and shipping impactful software. I care
-                deeply about the humans behind the code, and I build healthy,
+                deeply about the humans behind the code, and I foster healthy,
                 inclusive, and high-trust engineering cultures. I bring clarity,
                 alignment, and momentum to cross-functional product work, and I
                 believe in growing people, not just delivering features.
@@ -51,17 +51,17 @@ export default function HomePage() {
                 <NavCard
                   title="Resume"
                   href="/resume"
-                  description="Check out my experience, skills, and recent work. Includes downloadable PDF."
+                  description="Explore my experience, skills, and recent work. Includes downloadable PDF. (Coming soon!)"
                 />
                 <NavCard
                   title="Blog"
                   href="/blog"
-                  description="Insights on engineering leadership, growth, and continuous learning."
+                  description="Insights on engineering leadership, growth, and continuous learning. (Coming soon!)"
                 />
                 <NavCard
                   title="Reading"
                   href="/reading"
-                  description="A collection of books I recommend, with notes on why they matter."
+                  description="A collection of books I recommend, with notes on why they matter. (Coming soon!)"
                 />
                 <NavCard
                   title="Contact"
