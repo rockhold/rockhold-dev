@@ -76,8 +76,8 @@ export default function ProfileCard({
                   </button>
                 </div>
                 <p className="mt-2 leading-relaxed text-zinc-300">
-                  I’m looking for remote engineering leadership role where I can
-                  help an organization succeed and scale: operationally,
+                  I’m looking for a remote engineering leadership role where I
+                  can help an organization succeed and scale: operationally,
                   technically, culturally, and financially. I want to work on
                   products that matter, alongside people who care about each
                   other and the work they do.

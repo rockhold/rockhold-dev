@@ -93,8 +93,8 @@ export default function AboutPage() {
           My Next Chapter
         </h2>
         <p className="text-zinc-200">
-          I’m looking for remote engineering leadership role where I can help an
-          organization succeed and scale: operationally, technically,
+          I’m looking for a remote engineering leadership role where I can help
+          an organization succeed and scale: operationally, technically,
           culturally, and financially. I want to work on products that matter,
           alongside people who care about each other and the work they do.
         </p>
