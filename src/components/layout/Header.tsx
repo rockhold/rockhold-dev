@@ -19,8 +19,14 @@ export default function Header() {
   return (
     <header className="bg-gray-950 text-white shadow-md px-4 py-3 relative">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
-        <Link to="/" className="text-lime-400 font-bold text-lg">
-          rockhold.dev
+        <Link
+          to="/"
+          className="text-lime-400 font-bold text-lg sm:text-xl flex items-center gap-1"
+        >
+          <span>rockhold.dev&nbsp;&gt;</span>
+          <span className="animate-blink w-[1ch] bg-lime-400 ml-1 text-lime-400">
+            |
+          </span>
         </Link>
 
         {/* Desktop Nav */}
