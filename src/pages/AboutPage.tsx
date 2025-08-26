@@ -93,17 +93,22 @@ export default function AboutPage() {
           My Next Chapter
         </h2>
         <p className="text-zinc-200">
-          I’m looking for a senior engineering leadership role where I can help
-          an organization succeed and scale—operationally, technically, and
-          culturally. I want to work on products that matter, alongside people
-          who care about each other and the work they do.
+          I’m looking for remote engineering leadership role where I can help an
+          organization succeed and scale: operationally, technically,
+          culturally, and financially. I want to work on products that matter,
+          alongside people who care about each other and the work they do.
         </p>
         <p className="text-zinc-200 mt-4">
-          If that sounds like your company,{" "}
+          Roles that may be a good fit for me include: Engineering Manager, Sr
+          Engineering Manager, and Engineering Director.
+        </p>
+        <p className="text-zinc-200 mt-4">
+          If you're aware of or are hiring for a role that you think I may fit
+          well,{" "}
           <Link to="/contact" className="text-sky-400 underline">
             let’s connect
           </Link>
-          .
+          !
         </p>
       </section>
     </div>

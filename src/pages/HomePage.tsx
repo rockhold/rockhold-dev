@@ -11,7 +11,7 @@ export default function HomePage() {
     <>
       <div className="py-8 sm:py-12">
         <div className="space-y-8 sm:space-y-10">
-          <section className="max-w-4xl mx-auto w-full px-4 animate-fadeIn">
+          <section className="max-w-4xl mx-auto w-full px-4 animate-fadeIn relative z-10">
             <ProfileCard
               name="Brandon Rockhold"
               title="Engineering Leader | Manager and Mentor"
@@ -22,7 +22,7 @@ export default function HomePage() {
               showResume={true}
             />
           </section>
-          <section className="max-w-4xl mx-auto w-full px-4 animate-fadeIn">
+          <section className="max-w-4xl mx-auto w-full px-4 animate-fadeIn relative z-0">
             <div className="bg-gray-800 text-white p-6 rounded-xl shadow-lg">
               <h2 className="text-xl sm:text-2xl font-bold mb-2 text-center">
                 Empowering Exceptional Teams
@@ -37,7 +37,7 @@ export default function HomePage() {
               </p>
             </div>
           </section>
-          <section className="max-w-4xl mx-auto w-full px-4 animate-fadeIn">
+          <section className="max-w-4xl mx-auto w-full px-4 animate-fadeIn relative z-10">
             <div className="max-w-5xl mx-auto">
               <h2 className="text-2xl sm:text-3xl font-semibold text-center mb-10">
                 Explore the Site
