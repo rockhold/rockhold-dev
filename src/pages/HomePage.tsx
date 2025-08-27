@@ -51,7 +51,7 @@ export default function HomePage() {
                 <NavCard
                   title="Resume"
                   href="/resume"
-                  description="Explore my experience, skills, and recent work. Includes downloadable PDF. (Coming soon!)"
+                  description="Explore my experience, skills, and recent work. Includes downloadable PDF."
                 />
                 <NavCard
                   title="Blog"
