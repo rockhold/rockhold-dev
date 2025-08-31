@@ -5,6 +5,7 @@ import AboutPage from "./pages/AboutPage";
 import ResumePage from "./pages/ResumePage";
 import BlogPage from "./pages/BlogPage";
 import ReadingPage from "./pages/ReadingPage";
+import MentoringPage from "./pages/MentoringPage";
 import ContactPage from "./pages/ContactPage";
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/resume" element={<ResumePage />} />
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/reading" element={<ReadingPage />} />
+          <Route path="/mentoring" element={<MentoringPage />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </Layout>

@@ -64,6 +64,11 @@ export default function HomePage() {
                   description="A collection of books I recommend, with notes on why they matter. (Coming soon!)"
                 />
                 <NavCard
+                  title="Mentoring"
+                  href="/mentoring"
+                  description="TODO - copy for offering limited availability mentoring..."
+                />
+                <NavCard
                   title="Contact"
                   href="/contact"
                   description="Reach out via email or social platforms. Let’s connect!"
