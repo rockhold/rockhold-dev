@@ -10,7 +10,7 @@ export default function MentoringPage() {
     document.title = "Mentoring – rockhold.dev";
   }, []);
 
-  const GOOGLE_FORM_URL = "https://"; // TODO: swap with real google form link
+  const GOOGLE_FORM_URL = "https://forms.gle/9pokjzcd1wxyTK2m6";
 
   return (
     <div className="py-8 sm:py-12 space-y-8 sm:space-y-10">
@@ -29,26 +29,41 @@ export default function MentoringPage() {
       <Section>
         <div className="grid gap-6 sm:grid-cols-2">
           <InfoCard title="What to Expect">
-            <ul className="list-disc list-inside space-y-2">
-              <li>
+            <ul className="space-y-3">
+              <li className="flex items-start gap-2">
+                <span className="mt-2 h-1.5 w-1.5 rounded-full bg-gray-500 flex-none" />
                 A calm, empathetic space to talk openly about a challenge,
                 concern, or decision.
               </li>
-              <li>
+              <li className="flex items-start gap-2">
+                <span className="mt-2 h-1.5 w-1.5 rounded-full bg-gray-500 flex-none" />
                 Coaching‑style questions to help you see options and trade‑offs.
               </li>
-              <li>
+              <li className="flex items-start gap-2">
+                <span className="mt-2 h-1.5 w-1.5 rounded-full bg-gray-500 flex-none" />
                 Select insights from my engineering leadership experience when
                 relevant.
               </li>
-              <li>A short recap of key takeaways and plausible next steps.</li>
+              <li className="flex items-start gap-2">
+                <span className="mt-2 h-1.5 w-1.5 rounded-full bg-gray-500 flex-none" />
+                A short recap of key takeaways and plausible next steps.
+              </li>
             </ul>
           </InfoCard>
           <InfoCard title="What’s Not Included">
-            <ul className="list-disc list-inside space-y-2">
-              <li>Resume writing or comprehensive reviews.</li>
-              <li>Job placement, referrals, or guaranteed connections.</li>
-              <li>Ongoing coaching beyond the single session (for now).</li>
+            <ul className="space-y-3">
+              <li className="flex items-start gap-2">
+                <span className="mt-2 h-1.5 w-1.5 rounded-full bg-gray-500 flex-none" />
+                Resume writing or comprehensive reviews.
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-2 h-1.5 w-1.5 rounded-full bg-gray-500 flex-none" />
+                Job placement, referrals, or guaranteed connections.
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-2 h-1.5 w-1.5 rounded-full bg-gray-500 flex-none" />
+                Ongoing coaching beyond the single session (for now).
+              </li>
             </ul>
           </InfoCard>
         </div>
@@ -61,7 +76,7 @@ export default function MentoringPage() {
             <StepCard
               step="Step 1"
               title="Request a session"
-              text="Open a short form and share the one topic you’d like to discuss."
+              text="Open a short form and share the primary topic you’d like to discuss."
               link={{ href: GOOGLE_FORM_URL, label: "Open the request form →" }}
             />
             <StepCard
@@ -100,7 +115,7 @@ export default function MentoringPage() {
         </div>
       </Section>
 
-      {/* Final CTA (no title) */}
+      {/* Final CTA */}
       <Section>
         <CtaCard
           description="If you’re in a tough moment, you don’t have to carry it alone. A single conversation can bring helpful clarity."

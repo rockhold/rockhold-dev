@@ -5,7 +5,9 @@ type SectionProps = {
 
 export default function Section({ children, className = "" }: SectionProps) {
   return (
-    <section className={`max-w-4xl mx-auto w-full px-4 ${className}`.trim()}>
+    <section
+      className={`max-w-4xl mx-auto w-full px-4 animate-fadeIn ${className}`.trim()}
+    >
       {children}
     </section>
   );
