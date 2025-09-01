@@ -1,9 +1,9 @@
 import { useEffect } from "react";
-import Section from "../components/Section";
-import CtaCard from "../components/CtaCard";
-import InfoCard from "../components/InfoCard";
-import StepCard from "../components/StepCard";
-import FaqCard from "../components/FaqCard";
+import Section from "../components/common/Section";
+import CtaCard from "../components/common/CtaCard";
+import InfoCard from "../components/common/InfoCard";
+import StepCard from "../components/common/StepCard";
+import FaqCard from "../components/common/FaqCard";
 
 export default function MentoringPage() {
   useEffect(() => {
