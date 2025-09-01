@@ -9,7 +9,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+    "e2e": "cypress open"
   },
   "dependencies": {
     "@vercel/analytics": "1.5.0",
@@ -32,6 +33,7 @@
     "@types/testing-library__jest-dom": "5.14.9",
     "@vitejs/plugin-react": "5.0.0",
     "autoprefixer": "10.4.21",
+    "cypress": "15.0.0",
     "eslint": "9.37.0",
     "eslint-plugin-react-hooks": "5.2.0",
     "eslint-plugin-react-refresh": "0.4.20",
