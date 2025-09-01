@@ -1,8 +1,8 @@
 import { useEffect } from "react";
-import NavCard from "../components/NavCard";
-import ProfileCard from "../components/ProfileCard";
-import Section from "../components/Section";
-import CtaCard from "../components/CtaCard";
+import NavCard from "../components/home/NavCard";
+import ProfileCard from "../components/home/ProfileCard";
+import Section from "../components/common/Section";
+import CtaCard from "../components/common/CtaCard";
 
 export default function HomePage() {
   useEffect(() => {

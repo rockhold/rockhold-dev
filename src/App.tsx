@@ -7,7 +7,7 @@ import BlogPage from "./pages/BlogPage";
 import ReadingPage from "./pages/ReadingPage";
 import MentoringPage from "./pages/MentoringPage";
 import ContactPage from "./pages/ContactPage";
-import ScrollToTop from "./components/ScrollToTop";
+import ScrollToTop from "./components/common/ScrollToTop";
 
 export default function App() {
   return (
