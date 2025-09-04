@@ -28,7 +28,7 @@ export default function HomePage() {
 
           <Section className="relative z-0">
             <CtaCard
-              title="Empowering Exception Teams"
+              title="Empowering Exceptional Teams"
               description={`I’m an engineering leader with extensive experience building
                 high-performing teams and shipping impactful software. I care
                 deeply about the humans behind the code, and I foster healthy,
