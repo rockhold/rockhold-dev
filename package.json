@@ -10,8 +10,16 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest",
+    "test:watch": "vitest --watch",
+    "test:coverage": "vitest --coverage",
     "e2e": "cypress open",
-    "e2e:headless": "cypress run --browser chrome"
+    "e2e:headless": "cypress run --browser chrome",
+    "ct": "cypress open --component",
+    "ct:headless": "cypress run --component --browser chrome",
+    "test:all": "npm run test && npm run ct:headless && npm run e2e:headless",
+    "test:ci": "npm run lint && npm run test:coverage && npm run ct:headless && npm run e2e:headless",
+    "check": "npm run lint && npm run test",
+    "check:all": "npm run lint && npm run test:all"
   },
   "dependencies": {
     "@vercel/analytics": "1.5.0",
@@ -23,6 +31,7 @@
     "react-router-dom": "7.8.2"
   },
   "devDependencies": {
+    "@cypress/react": "9.0.1",
     "@eslint/js": "9.37.0",
     "@tailwindcss/vite": "4.1.12",
     "@testing-library/jest-dom": "6.8.0",
@@ -33,6 +42,7 @@
     "@types/react-router-dom": "5.3.3",
     "@types/testing-library__jest-dom": "5.14.9",
     "@vitejs/plugin-react": "5.0.0",
+    "@vitest/coverage-v8": "3.2.4",
     "autoprefixer": "10.4.21",
     "cypress": "15.0.0",
     "eslint": "9.37.0",
